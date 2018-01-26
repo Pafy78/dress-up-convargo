@@ -8,6 +8,43 @@ header.masthead .front-opacity{
 .text-muted{
     font-size: 0.7rem;
 }
+.container-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#actors{
+    width:100%;
+    margin-top: 40px;
+}
+.actors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fed136;
+    border-radius: .25rem;
+}
+.actor .who{
+    font-size: 1.5rem;
+}
+.actor .amount{
+    font-size: 2rem;
+    color: #da2a2a;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
 
 @media (min-width: 768px){
     section {
