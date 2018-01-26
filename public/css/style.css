@@ -1,0 +1,16 @@
+header.masthead .front-opacity{
+    background-color: rgba(0,0,0,0.2);
+}
+
+.service-heading{
+    font-size: 1.2rem;
+}
+.text-muted{
+    font-size: 0.7rem;
+}
+
+@media (min-width: 768px){
+    section {
+        padding: 100px 0;
+    }
+}
